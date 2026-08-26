@@ -33,6 +33,14 @@ Vigor.js 是一个面向文档站、知识库和个人技术站点的静态站�
 
 ## 工作原理
 
+下图展示了 Vigor.js 从用户内容、配置与静态资源输入，到插件解析、核心数据组织、编译打包和 Web 端渲染的整体数据流：
+
+<p align="center">
+  <img src="./statics/839252a8-cf82-41c4-90f3-21b7383fcd77.png" alt="Vigor.js 数据流图" width="900" />
+</p>
+
+简化后的构建主链路如下：
+
 ```text
 Markdown / MDX / React 页面
           │
